@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+🛒 Lista de Compras Inteligente
+📝 Sobre o Projeto
+Este é um projeto front-end que simula uma aplicação de lista de compras. Desenvolvido para ser simples e intuitivo, ele permite que os usuários adicionem, removam e marquem itens como comprados, facilitando a organização das suas idas ao supermercado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A interface foi criada com foco na experiência do usuário, apresentando um design limpo e moderno.
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+Adicionar Itens: Adicione novos itens à sua lista com nome e quantidade.
+Remover Itens: Exclua itens da lista de compras ou da lista de já comprados.
+Marcar como Comprado: Mova itens da lista principal para a seção "Itens já comprados" com apenas um clique.
+🚀 Tecnologias Utilizadas
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React: Biblioteca JavaScript para a construção de interfaces de usuário.
+Tailwind CSS: Framework de CSS utility-first para estilização rápida e moderna.
+Vite: Ferramenta de build para um desenvolvimento front-end mais rápido e leve (ou create-react-app se for o caso).
+🛠️ Como Executar o Projeto
+Para rodar este projeto localmente, siga os passos abaixo:
 
-## Expanding the ESLint configuration
+Pré-requisitos
+Node.js (versão 18.x ou superior)
+npm ou yarn
+Instalação
+Clone o repositório:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Bash
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Bash
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+cd seu-repositorio
+Instale as dependências:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Bash
+
+npm install
+ou, se você usa yarn:
+
+Bash
+
+yarn install
+Execute a aplicação:
+
+Bash
+
+npm run dev
+ou, se você usa yarn:
+
+Bash
+
+yarn dev
+Abra seu navegador e acesse http://localhost:5173 (ou a porta que aparecer no seu terminal).
+
+📖 Como Usar
+Para adicionar um item: Digite o nome do item no campo "Item" e a quantidade no campo "Quantidade". Em seguida, clique no botão +.
+Para marcar como comprado: Clique no círculo de seleção (checkbox) ao lado do item que você deseja mover. Ele será transferido para a seção "Itens já comprados".
+Para remover um item: Clique no ícone da lixeira ao lado do item que deseja excluir, tanto na lista principal quanto na de comprados.
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
