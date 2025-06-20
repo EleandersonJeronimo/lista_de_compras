@@ -1,8 +1,5 @@
 # 🛒 Lista de Compras Inteligente
 
-![Captura de tela da aplicação Lista de Compras](https://i.imgur.com/URL_DA_SUA_IMAGEM.png)
-_**Dica:** Para a imagem aparecer, suba ela para o seu repositório e substitua o link acima pelo caminho da imagem._
-
 ## 📝 Sobre o Projeto
 
 Este é um projeto front-end que simula uma aplicação de lista de compras. Desenvolvido para ser simples e intuitivo, ele permite que os usuários adicionem, removam e marquem itens como comprados, facilitando a organização das suas idas ao supermercado.
