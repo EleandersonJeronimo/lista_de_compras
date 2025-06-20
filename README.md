@@ -1,4 +1,4 @@
-🛒 Lista de Compras Inteligente
+🛒 <h1>Lista de Compras Inteligente</h1>
 📝 Sobre o Projeto
 Este é um projeto front-end que simula uma aplicação de lista de compras. Desenvolvido para ser simples e intuitivo, ele permite que os usuários adicionem, removam e marquem itens como comprados, facilitando a organização das suas idas ao supermercado.
 
