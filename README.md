@@ -79,5 +79,3 @@ Para rodar este projeto localmente, siga os passos abaixo:
 3.  **Para remover um item**: Clique no ícone da lixeira ao lado do item que deseja excluir, tanto na lista principal quanto na de comprados.
 
 ---
-
-Feito com ❤️ por Eleanderson Jeronimo
