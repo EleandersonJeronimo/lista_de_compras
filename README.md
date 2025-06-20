@@ -1,4 +1,5 @@
 # 🛒 Lista de Compras Inteligente
+![lista de compras](lista_compra.jpg)
 
 ## 📝 Sobre o Projeto
 
