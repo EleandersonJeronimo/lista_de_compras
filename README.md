@@ -1,20 +1,22 @@
-🛒 <h1>Lista de Compras Inteligente</h1>
-📝 Sobre o Projeto
-Este é um projeto front-end que simula uma aplicação de lista de compras. Desenvolvido para ser simples e intuitivo, ele permite que os usuários adicionem, removam e marquem itens como comprados, facilitando a organização das suas idas ao supermercado.
+<h1>🛒Lista de Compras Inteligente</h1>
+<h2>📝 Sobre o Projeto</h2>
+<p>Este é um projeto front-end que simula uma aplicação de lista de compras. Desenvolvido para ser simples e intuitivo, ele permite que os usuários adicionem, removam e marquem itens como comprados, facilitando a organização das suas idas ao supermercado.</p>
 
-A interface foi criada com foco na experiência do usuário, apresentando um design limpo e moderno.
+<p>A interface foi criada com foco na experiência do usuário, apresentando um design limpo e moderno.</p>
 
-✨ Funcionalidades
-Adicionar Itens: Adicione novos itens à sua lista com nome e quantidade.
-Remover Itens: Exclua itens da lista de compras ou da lista de já comprados.
-Marcar como Comprado: Mova itens da lista principal para a seção "Itens já comprados" com apenas um clique.
-🚀 Tecnologias Utilizadas
-Este projeto foi construído utilizando as seguintes tecnologias:
+<h2>✨ Funcionalidades</h2>
+<ul>
+  <li>Adicionar Itens: Adicione novos itens à sua lista com nome e quantidade.</li>
+  <li>Remover Itens: Exclua itens da lista de compras ou da lista de já comprados.</li>
+  <li>Marcar como Comprado: Mova itens da lista principal para a seção "Itens já comprados" com apenas um clique.</li>
+</ul>
+<h2>🚀 Tecnologias Utilizadas</h2>
+<p>Este projeto foi construído utilizando as seguintes tecnologias:</p>
 
-React: Biblioteca JavaScript para a construção de interfaces de usuário.
-Tailwind CSS: Framework de CSS utility-first para estilização rápida e moderna.
-Vite: Ferramenta de build para um desenvolvimento front-end mais rápido e leve (ou create-react-app se for o caso).
-🛠️ Como Executar o Projeto
+<strong>React</strong>: Biblioteca JavaScript para a construção de interfaces de usuário.
+<strong>Tailwind CSS</strong>: Framework de CSS utility-first para estilização rápida e moderna.
+<strong>Vite</strong>: Ferramenta de build para um desenvolvimento front-end mais rápido e leve (ou create-react-app se for o caso).
+<h2>🛠️ Como Executar o Projeto</h2>
 Para rodar este projeto localmente, siga os passos abaixo:
 
 Pré-requisitos
@@ -53,9 +55,9 @@ Bash
 yarn dev
 Abra seu navegador e acesse http://localhost:5173 (ou a porta que aparecer no seu terminal).
 
-📖 Como Usar
+<strong>📖 Como Usar</strong>
 Para adicionar um item: Digite o nome do item no campo "Item" e a quantidade no campo "Quantidade". Em seguida, clique no botão +.
 Para marcar como comprado: Clique no círculo de seleção (checkbox) ao lado do item que você deseja mover. Ele será transferido para a seção "Itens já comprados".
 Para remover um item: Clique no ícone da lixeira ao lado do item que deseja excluir, tanto na lista principal quanto na de comprados.
-📄 Licença
+<strong>📄 Licença</strong>
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
